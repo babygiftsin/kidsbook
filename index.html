@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kids Learning Book</title>
+<style>
+body{font-family:Arial;background:#f6f6f6;margin:0;padding:0;}
+header{background:#ff6b6b;color:#fff;padding:20px;text-align:center;}
+.product{max-width:600px;background:#fff;margin:20px auto;padding:20px;border-radius:10px;text-align:center;}
+.price{color:#ff4d4d;font-size:28px;font-weight:bold;}
+.badges span{display:inline-block;background:#28a745;color:#fff;padding:6px 10px;border-radius:6px;margin:3px;font-size:14px;}
+.order{text-align:left;margin-top:20px;}
+input,button{width:100%;padding:12px;margin:6px 0;border-radius:6px;border:1px solid #ccc;font-size:16px;}
+button{background:#ff4d4d;color:#fff;border:none;cursor:pointer;}
+button:hover{opacity:0.9;}
+.logo{width:90px;margin:auto;display:block;border-radius:10px;}
+</style>
+</head>
+<body>
+
+<header>
+<img src="baby-gifts-logo.png" class="logo">
+<h2>Baby Gifts IN</h2>
+<p>Most Loved Product ⭐ | 4.9 Rating (2000+ customers) | Best Seller 🏆</p>
+</header>
+
+<div class="product">
+<h2>Kids Learning Study Book</h2>
+<p class="price">₹349 Only</p>
+
+<div class="badges">
+<span>100% Safe Product</span>
+<span>Trusted Seller</span>
+<span>Fast Delivery</span>
+<span>Cash On Delivery</span>
+</div>
+
+<form action="https://api.whatsapp.com/send" method="GET" target="_blank" class="order">
+<input type="hidden" name="phone" value="918578896942">
+<input type="hidden" name="text" value="New Order Received:">
+<input type="text" name="name" placeholder="Full Name" required>
+<input type="text" name="address" placeholder="Full Address" required>
+<input type="text" name="city" placeholder="City" required>
+<input type="text" name="pincode" placeholder="Pincode" required>
+<input type="text" name="mobile" placeholder="Mobile Number" required>
+<button type="submit">Place Order (COD)</button>
+</form>
+</div>
+
+</body>
+</html>
